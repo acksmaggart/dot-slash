@@ -6,7 +6,7 @@ Dot Slash is a filepath helper that does one job; it resolves a filepath relativ
 
 ## Installation
 
-```python
+```sh
 pip install dot-slash
 ```
 
