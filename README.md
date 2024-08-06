@@ -2,6 +2,8 @@
 
 Dot Slash is a filepath helper that does one job; it resolves a filepath relative to the directory of the file where it is invoked. Which sounds more complicated than it is. In other words, if you find yourself thinking, "I need to access a file and I know its location relative to the code I'm writing now, but I don't really know/care where it is relative to the root of my filesystem, and I'd rather not worry about what the working directory is when I run this code" then you are in the right place.
 
+[![PyPI version](https://badge.fury.io/py/dot-slash.svg)](https://badge.fury.io/py/dot-slash)
+
 ## Usage
 
 ```python
