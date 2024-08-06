@@ -4,6 +4,12 @@ Dot Slash is a filepath helper that does one job; it resolves a filepath relativ
 
 [![PyPI version](https://badge.fury.io/py/dot-slash.svg)](https://badge.fury.io/py/dot-slash)
 
+## Installation
+
+```python
+pip install dot-slash
+```
+
 ## Usage
 
 ```python
