@@ -43,8 +43,8 @@ these paths resolve as follows
 
 from dot_slash import dot_slash
 
-dot_slash("..")                # -> /root/some/path/to/working_dir/
-dot_slash(".")                 # -> /root/some/path/to/working_dir/A/
 dot_slash("sibling.txt")       # -> /root/some/path/to/working_dir/A/sibling.txt
 dot_slash("../B/cousin.json")  # -> /root/some/path/to/working_dir/B/cousin.json
+dot_slash("..")                # -> /root/some/path/to/working_dir/
+dot_slash(".")                 # -> /root/some/path/to/working_dir/A/
 ```
