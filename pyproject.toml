@@ -4,6 +4,7 @@ version = "1.0.0"
 description = ""
 authors = ["Max Taggart <taggart@digialdiagnostics.com>"]
 readme = "README.md"
+license = {file = "LICENSE"}
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -13,6 +14,10 @@ optional = true
 
 [tool.poetry.group.test.dependencies]
 pytest = "~8.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.26.0"
 
 [build-system]
 requires = ["poetry-core"]
